@@ -42,6 +42,36 @@
     font-weight: 400px;
 }
 
+.color6 {
+    color: rgba(17, 17, 17, 1);
+}
+
+.add {
+    font-size: 1.4rem;
+    font-weight: 600px;
+}
+
+.tk {
+    margin-top: -10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.btn-prime {
+    background-color: rgba(233, 90, 8, 1);
+    font-size: 1rem;
+    font-weight: 210px;
+    padding: 20px 50px;
+    border: none;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header-info {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
 /* nav style */
 
 .nav-bar {
@@ -69,7 +99,7 @@
 
 .nav-bar,
 .banner {
-    max-width: auto;
+    max-width: 1440px;
     margin: 2rem 9.3rem;
 }
 
@@ -95,15 +125,48 @@
     margin-top: 7rem;
 }
 
+/* Main part of body */
+/* Our plants */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.plants-tag {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plants-description {
+    margin-top: -10px;
+    padding: 5.5rem, 7.5rem;
+    text-align: center;
+}
+
+.plants-info {
+    max-width: 888px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plants-image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.add,
+.tk {
+    text-align: center;
+    margin-right: 70px;
+}
+
 /* Media query */
 
 @media screen and (max-width: 576px) {
     .nav-bar-items {
         display: none;
-    }
-
-    .nav-bar {
-        /* margin: 4rem, 1rem; */
     }
 
     .nav-list {
@@ -133,5 +196,27 @@
             "banner-tag  ";
     }
 
+    /*plants */
 
+    .plants-info {
+        max-width: 393px;
+        text-align: center;
+    }
+
+    .plants-tag {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .plants-description {
+        font-size: 22px;
+        font-weight: 400px;
+
+    }
+
+    .plants-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
 }
