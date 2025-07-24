@@ -18,3 +18,48 @@
     font-weight: 400px;
     font-style: normal;
 }
+
+/* Color */
+.color1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+.color2 {
+    color: rgba(37, 36, 50, 1);
+}
+
+.color3 {
+    color: rgba(137, 135, 161, 1);
+}
+
+/* nav style */
+
+.nav-bar {
+    justify-content: space-between;
+    margin: 2rem 9.3rem;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.material-icons {
+    margin-right: 10px;
+}
+
+.nav-items {
+    list-style: none;
+    margin-right: 3rem;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.nav-bar,
+.banner {
+    max-width: auto;
+    margin: 0, auto;
+}
