@@ -94,3 +94,44 @@
 .banner {
     margin-top: 7rem;
 }
+
+/* Media query */
+
+@media screen and (max-width: 576px) {
+    .nav-bar-items {
+        display: none;
+    }
+
+    .nav-bar {
+        /* margin: 4rem, 1rem; */
+    }
+
+    .nav-list {
+        margin-left: 15rem;
+    }
+
+    .nav-bar,
+    .banner {
+        max-width: auto;
+        margin: 1rem;
+    }
+
+    .banner-tag {
+        grid-area: banner-tag;
+        margin-top: 20px;
+    }
+
+    .banner-img {
+        grid-area: banner-image;
+        margin-top: 20px;
+    }
+
+    .banner {
+        display: grid;
+        grid-template-areas:
+            "banner-image "
+            "banner-tag  ";
+    }
+
+
+}
