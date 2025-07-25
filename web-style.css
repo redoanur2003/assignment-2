@@ -101,12 +101,6 @@
     font-weight: 500;
 }
 
-.nav-bar,
-.banner {
-    max-width: 1440px;
-    margin: 2rem 9.3rem;
-}
-
 /* banner */
 .banner-info {
     font-size: 4rem;
