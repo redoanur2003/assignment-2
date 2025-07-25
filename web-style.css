@@ -162,6 +162,42 @@ main {
     margin-right: 70px;
 }
 
+/* Flower lover */
+.lover-tag {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.trusted-badge {
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.ti {
+    margin-left: 350px;
+    margin-top: -730px;
+
+}
+
+.lover-image {
+    max-width: 540px;
+    max-height: 595px;
+}
+
+.lover-description {
+    margin-left: 6rem;
+}
+
+.lover-info {
+    margin: 1.5rem;
+    max-width: 580px;
+}
+
+.lover {
+    margin-top: 200px;
+}
+
+
 /* Media query */
 
 @media screen and (max-width: 576px) {
@@ -218,5 +254,20 @@ main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
+    }
+
+    /* Lover */
+    .lover {
+        display: grid;
+        margin-top: 50px;
+        margin: 10px;
+    }
+
+    .lover-description {
+        margin: 10px;
+    }
+
+    .ti {
+        display: none;
     }
 }
